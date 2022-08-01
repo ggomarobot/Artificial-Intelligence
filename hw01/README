@@ -1,0 +1,13 @@
+/**********************************************************
+* Assignment 01 Heuristic A* Search
+* CS 131
+* README
+* [NAME] Gun Yang
+* [DATE] 06/17/2022
+*********************************************************/
+
+Compile/run:
+
+     - run executable with
+            python astar_search.py FILENAME
+
