@@ -11,7 +11,7 @@ Compile/run:
      - run executable with
             python solver.py CrosswordBoardFile DictionaryFile [AC3-Preprocess]
 
-    first input file should specify width and height of a puzzle board.
+    first input file should specify the width and height of a puzzle board.
     second input file should be a list of english words
 
     If a third argument is provided, of any sort, then pre-processing will be performed,
