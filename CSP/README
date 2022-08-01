@@ -1,0 +1,19 @@
+/**********************************************************
+* Assignment 02 Constraint Satisfaction Solver
+* CS 131
+* README
+* [NAME] Gun Yang
+* [DATE] 06/30/2022
+*********************************************************/
+
+Compile/run:
+
+     - run executable with
+            python solver.py CrosswordBoardFile DictionaryFile [AC3-Preprocess]
+
+    first input file should specify width and height of a puzzle board.
+    second input file should be a list of english words
+
+    If a third argument is provided, of any sort, then pre-processing will be performed,
+    which reduces the domains of the variables by eliminating values that cannot be part of a consistent solution,
+    and causes the search portion of the method to run much more quickly.
