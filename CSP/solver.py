@@ -423,7 +423,7 @@ def main():
         
         # sort variables using the Most-Constrained Variable heuristic
         # additionally, use the Most Constraining Variable heuristic to break ties
-        unassigned_var = sorted(empty_puzzle.unassigned_var, key=lambda k: (k.domain_size, k.constraining_power))
+        unassigned_var = sorted(empty_puzzle.unassigned_var, key=lambda k: (k.domain_size, k.constraining_power * -1))
         empty_puzzle.unassigned_var = unassigned_var
         
         assignment = set()
