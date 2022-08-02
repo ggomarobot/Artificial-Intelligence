@@ -156,6 +156,7 @@ def parse_bayes_net_file(bayes_net_file):
     
     global var_index_dict
     global var_index_counter
+    global index_var_dict
     
     bn = bayes_net()
     
