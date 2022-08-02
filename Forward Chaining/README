@@ -1,0 +1,14 @@
+/**********************************************************
+* Assignment 03 Forward Chaining for Propositional Inference
+* CS 131
+* README
+* [NAME] Gun Yang
+* [DATE] 07/15/2022
+***********************************************************/
+
+Compile/run:
+
+     - run executable with
+            python forward_chain.py KnowledgeBaseFile
+
+    the input should be the name of the knowledge-base ﬁle
