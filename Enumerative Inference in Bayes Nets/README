@@ -1,0 +1,14 @@
+/**********************************************************
+* Assignment 04 Enumerative Inference for Bayes Nets
+* CS 131
+* README
+* [NAME] Gun Yang
+* [DATE] 07/31/2022
+***********************************************************/
+
+Compile/run:
+
+     - run executable with
+            python BayesNet.py BayesNetFile
+
+    the input should be the name of the bayes net ﬁle
