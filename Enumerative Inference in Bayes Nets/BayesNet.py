@@ -377,7 +377,8 @@ def parse_query_command(query_var):
             
             index = 0
             evidence_dict = {}
-
+            new_evidence = None
+            
             for elem in evidences:
                 '''
                 since input will be in the format of
