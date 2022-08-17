@@ -57,7 +57,7 @@ class bayes_net:
 referenced GeeksforGeeks on topological sorting
 (https://www.geeksforgeeks.org/python-program-for-topological-sorting/)
 '''
-# a class that represents a directedf acyclic graph (DAG) to topologically sort Bayes Net variables
+# a class that represents a directed acyclic graph (DAG) to topologically sort Bayes Net variables
 class directed_acyclic_graph:
     def __init__(self, vertices):
         self.graph = defaultdict(list)
