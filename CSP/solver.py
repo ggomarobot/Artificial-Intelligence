@@ -155,21 +155,21 @@ def process_grid(first_input):
                     if (check_across(row_counter, col_counter)):
                         intersect_checker += 1
                         new_word = word(int(i), "across", start_coord = (row_counter, col_counter))
-                        # add it to a "words" list
+                        # add it to the "words" list
                         words.append(new_word)
-                        # add it to a corresponding coordinates' occupied list
+                        # add it to the corresponding coordinates' occupied list
                         puzzle_board[row_counter][col_counter].occupied.append((new_word, 0))
                         
                     if (check_down(row_counter, col_counter)):
                         new_word = word(int(i), "down", start_coord = (row_counter, col_counter))
-                        # add it to a "words" list
+                        # add it to the "words" list
                         words.append(new_word)
                         intersect_checker += 1
                         if intersect_checker == 2:
                             # if current character creates two word-variables ("across" and "down"),
-                            # add current coordinates to a "constraints" set
+                            # add current coordinates to the "constraints" set
                             constraints.add(puzzle_board[row_counter][col_counter])
-                        # add it to a corresponding coordinates' occupied list   
+                        # add it to the corresponding coordinates' occupied list   
                         puzzle_board[row_counter][col_counter].occupied.append((new_word, 0))
                         
                     intersect_checker = 0
